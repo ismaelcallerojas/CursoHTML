@@ -1,4 +1,4 @@
-# CursoHTML
+# Curso HTML y Css
 Códigos del Curso de HTML 
 Estructura del Curso:
   SECCIÓN 1
