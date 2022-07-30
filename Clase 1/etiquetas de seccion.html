@@ -27,6 +27,8 @@
             color:white;
             padding-top: 20px;
             padding-bottom: 20px;
+            border-radius: 25px;
+            margin-bottom: 20px;
         }
 
         /*nav */
@@ -34,17 +36,22 @@
             background-color: black;
             padding-top: 10px;
             padding-bottom: 10px;
+            border-radius: 25px;
         }
 
         /*main */
         main{
             background-color: pink;
+            border-radius: 25px;
+            width: 80%;
+            margin-right: 20px;
         }
 
         /*article */
         article{
             background-color: yellow;
             height: 200px;
+            border-radius: 25px;
         }
 
         /*section */
@@ -53,12 +60,14 @@
             padding-top:20px;
             padding-bottom: 20px;
             border: 2px solid black;
+            border-radius: 25px;
         }
 
         /*aside */
         aside{
             background-color: aqua;
-            
+            border-radius: 25px;
+            width: 20%;
         }
 
         /*footer */
@@ -67,34 +76,44 @@
             padding-top:20px;
             padding-bottom: 20px;
             color: white;
+            border-radius: 25px;
+            margin-top: 20px;
         }
         
+        /*Estilamos el div*/
+        div{
+            display: flex;
+        }
+
     </style>
 
 </head>
 <body>
 
-    <header>header<!--La cabecera de la pagina donde puedes colocar el navegador del sitio web -->
+    <header><h1>header</h1><!--La cabecera de la pagina donde puedes colocar el navegador del sitio web -->
         
-        <nav>nav</nav><!-- En HTML5 se coloca para los hipervinculos de navegacion del sitio web-->
+        <nav><h1>nav</h1></nav><!-- En HTML5 se coloca para los hipervinculos de navegacion del sitio web-->
     
     </header>
     
-    <main>main<!--Se debe colocar el contenido principal de la página web -->
-        <article>Article<!--Contenido independiente  -->
-            <section>Section<!--Para divir el contenido e ir categorizando-->
+    <div>
+        <main><h1>main</h1><!--Se debe colocar el contenido principal de la página web -->
+            <article><h1>Article</h1><!--Contenido independiente  -->
+                <section><h1>Section</h1><!--Para divir el contenido e ir categorizando-->
 
-            </section>
-            <section>Section<!--Para divir el contenido e ir categorizando-->
+                </section>
+                <section><h1>Section</h1><!--Para divir el contenido e ir categorizando-->
 
-            </section>
-        </article>    
-    </main>
+                </section>
+            </article>    
+        </main>
 
-    <aside>aside<!--No es parte del contenido principal, pero si es está relacionada con la página web-->
+        <aside><h1>aside</h1><!--No es parte del contenido principal, pero si es está relacionada con la página web-->
 
-    </aside>
-    <footer>footer<!--El pie de página donde puede colocar datos de una empresa o datos de la página-->
+        </aside>
+    </div>
+
+    <footer><h1>footer</h1><!--El pie de página donde puede colocar datos de una empresa o datos de la página-->
 
     </footer>
 </body>
