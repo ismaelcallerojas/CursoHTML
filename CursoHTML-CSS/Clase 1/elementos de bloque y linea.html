@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de bloque y de línea</title>
+    
+    <style>
+        h1{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!--Los elementos de bloque ocupan todo el ancho horizontal de la página por ejemplo:-->
+    <h1>Este es un elemento de bloque</h1>
+    <h2>Se nota porque este texto ya esta abajo, aunque haya espacio en la linea anterior</h2>
+    <p>la etiqueta p tambien es de bloque ya que ocupa todo el ancho de la página</p>
+
+    <p>Tambien tenemos la etiqueta code </p>
+    <code>
+        <pre>
+            for i in range(50):
+                print("Este es un bucle con python")
+        </pre>
+    </code>
+
+    <p>Luego esta la etiqueta blockquote</p>
+    <blockquote>
+            Esta etiqueta nos sirve por ejemplo para hacer citas textuales
+            esta etiqueta como que le da un formato al tetxo que va estar
+            dentro de la misma etiqueta.
+    </blockquote>
+
+    <pre>Otra etiqueta de bloque es div, 
+        esta etiqueta divisora nos sirve
+        para agrupar contenido</pre>
+    
+    <pre>Si queremos hacer salto de línea usamos br
+        por ejemplo:
+        despues de este texto hay un br <br> pero en mi codigo esta todo en una linea
+    </pre>
+    <p>la etiqueta tambien es de bloque, y nos sirve para cambiar de tema, eso ayuda al buscador</p>
+    <hr>
+
+    <!--Los elementos de línea ocupan el ancho de su contenido en la página por ejemplo:-->
+    <span>Este es un elemento de línea</span>
+    <span>Este es un elemento tambien es de línea</span>
+    <span>Este es un elemento tambien es de línea</span>
+    <span>Lo se porque esta en la misma linea, ya que tengo espacio disponible.</span>
+    <p>Dentro de los elementos de linea tenemos a small
+        <small>Que muestra texto menos importante</small>, ojo, no texto pequeño, sino tetxo no importante</p>
+    <hr>
+    <p>Luego tenemos otros elementos de línea en html
+        por ejemplo la etiqueta b hace que el texto esta en <b>negrita</b>
+        , tambien la etiqueta i es para texto <i>en cursiva o itálica</i>
+        , para subrayar texto esta u, por ejemplo: <u>este texto subrayado</u>
+    </p>
+    <hr>
+    <p>Okey, luego estan los textos subindices y superindices, por ejemplo:</p>
+    <pre>
+        si quisiera darle formato a H2O, deberia hacer con sub,
+        algo asi: H<sub>2</sub>O
+    </pre>
+
+    <pre>
+        Si quisiera colocar, por ejemplo, alguna ecuación como 2 al cuadrado, en normal es 22
+        pero usando superindice con sub es :  2<sup>2</sup>
+
+    </pre>
+</body>
+</html>
