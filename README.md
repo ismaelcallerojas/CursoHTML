@@ -42,3 +42,8 @@ Estructura del Curso:
   - Tipos de input
   - Opciones de selección
   - Atributos de formularios
+  
+  SECCIÓN 8
+  - Flex Box
+  - Maquetación con flexbox
+  
